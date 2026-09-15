@@ -208,3 +208,56 @@ footer p {
     min-height: 110px;
   }
 }
+.cards {
+display: flex;
+gap: 14px;          /* even space between cards */
+padding: 18px 20px;
+}
+ 
+.card {
+flex: 1;              /* each card takes an equal share */
+background: #ffffff;
+border: 1px solid #E2E8F0;  /* a quiet outline groups each card */
+border-radius: 10px;
+padding: 16px;       /* room inside, so numbers aren't on the edge */
+}
+
+style.css
+section {
+padding: 0 20px;     /* line up with the cards above */
+margin-bottom: 18px; /* space between sections */
+}
+ 
+section h2 {
+font-size: 16px;
+padding-bottom: 6px;
+border-bottom: 2px solid #E2E8F0; /* a divider under each title */
+}
+section li {
+list-style: none;
+background: #ffffff;
+border: 1px solid #E2E8F0;
+border-radius: 8px;
+padding: 8px 12px;
+margin-bottom: 6px;
+}
+.badges {
+display: flex;
+flex-wrap: wrap;
+gap: 8px;     /* even space between badges */
+}
+ 
+.badge {
+background: #EEF0FD;
+color: #3730A3;
+border: 1px solid #C7CCF7;
+border-radius: 999px;  /* fully rounded = pill shape */
+padding: 6px 12px;
+font-size: 13px;
+font-weight: 700;
+}
+.card {
+width: 25%;
+padding: 16px;
+border: 1px solid #E2E8F0;
+}
